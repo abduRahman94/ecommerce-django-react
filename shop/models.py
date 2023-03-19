@@ -36,6 +36,3 @@ class Commande(models.Model):
     produit = models.ForeignKey(Produit)
     statut_commande = models.IntegerField(choices=StatusCommande.choices)
     
-
-
-    
